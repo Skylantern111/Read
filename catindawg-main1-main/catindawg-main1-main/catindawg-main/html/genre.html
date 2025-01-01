@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent-A-Read</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="burger-menu">
+            <button class="burger-icon" aria-label="Menu">&#9776;</button>
+            <nav class="burger-menu-content">
+                <a href="../html/pp.html">Privacy Policy Update</a>
+                <a href="../html/termsandconditions.html">Terms and Conditions</a>
+                <a href="../html/cancellationandrefundpolicy.html">Cancellation and Refund Policy</a>
+                <a href="../html/shippingdeliverypolicy.html">Shipping & Delivery Policy</a>
+                <a href="../html/contactus.html">Contact Us</a>
+            </nav>
+        </div>
+        <div class="logo">
+            <a href="../html/home.html">
+                <img src="../images/newlogo.jpg" alt="Rent-A-Read Logo">
+                <p class="logo-text">RENT A READ</p>
+            </a>
+        </div>
+        
+        <div class="auth-search-container">
+            <div class="auth-links">
+                <a href="../html/login.html" class="login">LOGIN</a>
+                <div class="divider"></div> <!-- Divider between links -->
+                <a href="../html/register.html" class="register">REGISTER</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <div class="genre-dropdown">
+                    <button class="genre-button">Genres</button>
+                    <div class="genre-options">
+                        <a href="#" data-genre="action">Action</a>
+                        <a href="#" data-genre="adventure">Adventure</a>
+                        <a href="#" data-genre="comedy">Comedy</a>
+                        <a href="#" data-genre="drama">Drama</a>
+                        <a href="#" data-genre="educational">Educational</a>
+                        <a href="#" data-genre="fantasy">Fantasy</a>
+                        <a href="#" data-genre="history">History</a>
+                        <a href="#" data-genre="horror">Horror</a>
+                        <a href="#" data-genre="romance">Romance</a>
+                        <a href="#" data-genre="romcom">Romcom</a>
+                        <a href="#" data-genre="selfhelp">Selfhelp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-layout">
+            <div class="sidebar-navigation">
+                <div class="scrollable-nav">
+                    <ul>
+                        <li><input type="checkbox" id="action" class="genre-checkbox" data-genre="action"> <label for="action">Action</label></li>
+                        <li><input type="checkbox" id="adventure" class="genre-checkbox" data-genre="adventure"> <label for="adventure">Adventure</label></li>
+                        <li><input type="checkbox" id="comedy" class="genre-checkbox" data-genre="comedy"> <label for="comedy">Comedy</label></li>
+                        <li><input type="checkbox" id="drama" class="genre-checkbox" data-genre="drama"> <label for="drama">Drama</label></li>
+                        <li><input type="checkbox" id="educational" class="genre-checkbox" data-genre="educational"> <label for="educational">Educational</label></li>
+                        <li><input type="checkbox" id="fantasy" class="genre-checkbox" data-genre="fantasy"> <label for="fantasy">Fantasy</label></li>
+                        <li><input type="checkbox" id="history" class="genre-checkbox" data-genre="history"> <label for="history">History</label></li>
+                        <li><input type="checkbox" id="horror" class="genre-checkbox" data-genre="horror"> <label for="horror">Horror</label></li>
+                        <li><input type="checkbox" id="romance" class="genre-checkbox" data-genre="romance"> <label for="romance">Romance</label></li>
+                        <li><input type="checkbox" id="romcom" class="genre-checkbox" data-genre="romcom"> <label for="romcom">Romcom</label></li>
+                        <li><input type="checkbox" id="selfhelp" class="genre-checkbox" data-genre="selfhelp"> <label for="selfhelp">Selfhelp</label></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <section class="book-collection">
+                    <div class="book-item" data-genres="action">
+                        <img src="../images/abactioncover.jpg" alt="Action">
+                        <div class="book-info">
+                            <p>Action</p>
+                            <button class="stars">Rent</button>
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="action">
+                        <img src="../images/abactioncover.jpg" alt="Action">
+                        <div class="book-info">
+                            <p>Action</p>
+                            <button class="stars">Rent</button>
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="adventure">
+                        <img src="../images/abadventurecover.webp" alt="Adventure">
+                        <div class="book-info">
+                            <p>Adventure</p>
+                            <button class="stars">Rent</button>
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="adventure">
+                        <img src="../images/abadventurecover.webp" alt="Adventure">
+                        <div class="book-info">
+                            <p>Adventure</p>
+                            <button class="stars">Rent</button>
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="comedy">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="comedy">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="fantasy">
+                        <img src="../images/wicked.avif" alt="wicked">
+                        <div class="book-info"> 
+                            <p>Wicked</p>              
+                            <a href="../html-book/book.html" class="stars">Rent</a>
+                            </div>
+                        </div>
+      
+
+                    <div class="book-item" data-genres="fantasy">
+                        <img src="../images/son.jpg" alt="Son">
+                        <div class="book-info"> 
+                            <p>Son</p>              
+                            <a href="../html-book/book2.html" class="stars">Rent</a>
+      
+                            </div>
+                        </div>
+      
+                
+                        <div class="book-item" data-genres="fantasy">
+                          <img src="../images/lion.jpg" alt="Out">
+                          <div class="book-info">
+                              <p>Lion</p>
+                              <a href="../html-book/book3.html" class="stars">Rent</a>
+
+                          </div>
+                      </div>
+        
+      
+                      <div class="book-item" data-genres="fantasy">
+                        <img src="../images/out.jpg" alt="Out">
+                        <div class="book-info">
+                            <p>Out</p>
+                            <a href="../html-book/book4.html" class="stars">Rent</a>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="drama">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="drama">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="educational">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="educational">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="educational">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="educational">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="history">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+
+                    <div class="book-item" data-genres="history">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="horror">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    
+                    <div class="book-item" data-genres="horror">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="romance">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="romance">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    
+                    <div class="book-item" data-genres="selfhelp">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    <div class="book-item" data-genres="selfhelp">
+                        <img src="../images/abcomedycover.webp" alt="Comedy">
+                        <div class="book-info">
+                            <p>Comedy</p>
+                            <button class="stars">Rent</button>
+
+                        </div>
+                    </div>
+                    
+                    <!-- More book items -->
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="../html/contactus.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help / FAQ</a></li>
+                    <li><a href="#">Media Center</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>More</h4>
+                <ul>
+                    <li><a href="#">Gift Memberships</a></li>
+                    <li><a href="#">Browse Books</a></li>
+                    <li><a href="#">Browse Audiobooks</a></li>
+                    <li><a href="#">RSS Feed</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Sign Up</h4>
+                <ul>
+                    <li><a href="#">Rent Books</a></li>
+                    <li><a href="#">Rent Audiobooks</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>© 2024 Rent-A-Read</div>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
