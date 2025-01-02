@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Book Rental Store</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Admin Dashboard</h1>
+        <button>Logout</button>
+    </div>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="adminbooks.html">Books</a></li>
+            <li><a href="adminuser.html">Members</a></li>
+            <li><a href="adminorders.html">Rentals</a></li>
+            <li><a href="#">Reports</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h2>Welcome, Admin!</h2>
+        <div class="dashboard-grid">
+            <div class="card">
+                <h2>Total Books</h2>
+                <p>1200</p>
+            </div>
+            <div class="card">
+                <h2>Active Members</h2>
+                <p>350</p>
+            </div>
+            <div class="card">
+                <h2>Books Rented</h2>
+                <p>75</p>
+            </div>
+            <div class="card">
+                <h2>Categories</h2>
+                <p>20</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Recent Rentals</h2>
+            <p>Member John Doe rented "The Great Gatsby" on 2024-12-30.</p>
+            <p>Member Jane Smith rented "1984" on 2024-12-29.</p>
+        </div>
+        <div class="card">
+            <h2>Quick Actions</h2>
+            <a href="#" class="btn">Add New Book</a>
+            <a href="#" class="btn">View Reports</a>
+        </div>
+    </div>
+</body>
+</html>

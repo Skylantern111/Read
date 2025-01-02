@@ -1,0 +1,16 @@
+kulang:
+
+ADMIN
+users.html
+books.html
+orders.html
+
+ADMIN2
+dashboard
+books
+members
+rentals
+reports
+
+ADMINBOOKS
+

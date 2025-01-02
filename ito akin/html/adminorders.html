@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentals - Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Link to your main styles.css -->
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Admin Dashboard</h1>
+        <button>Logout</button>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Members</a></li>
+            <li><a href="#">Rentals</a></li>
+            <li><a href="#">Reports</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="card">
+            <h2>Rental Management</h2>
+            <p>Manage ongoing rentals, overdue books, and mark rentals as returned.</p>
+
+            <!-- Action Buttons for Managing Rentals -->
+            <div class="action-buttons">
+                <button class="btn add-rental">Add New Rental</button>
+                <button class="btn overdue-rentals">View Overdue Rentals</button>
+            </div>
+        </div>
+
+        <!-- Rental Status Overview -->
+        <div class="card">
+            <h2>Rental Status Overview</h2>
+            <div class="dashboard-grid">
+                <div class="card">
+                    <h3>Active Rentals</h3>
+                    <p>45</p>
+                </div>
+                <div class="card">
+                    <h3>Overdue Rentals</h3>
+                    <p>12</p>
+                </div>
+                <div class="card">
+                    <h3>Returned Rentals</h3>
+                    <p>230</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rental Table -->
+        <div class="card">
+            <h2>Recent Rentals</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Rental ID</th>
+                        <th>Book Title</th>
+                        <th>Member Name</th>
+                        <th>Rental Date</th>
+                        <th>Return Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>The Great Gatsby</td>
+                        <td>John Doe</td>
+                        <td>2024-12-01</td>
+                        <td>2024-12-15</td>
+                        <td>Active</td>
+                        <td>
+                            <button class="action-btn return">Mark as Returned</button>
+                            <button class="action-btn overdue">Mark as Overdue</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>1984</td>
+                        <td>Jane Smith</td>
+                        <td>2024-12-05</td>
+                        <td>2024-12-20</td>
+                        <td>Overdue</td>
+                        <td>
+                            <button class="action-btn return">Mark as Returned</button>
+                            <button class="action-btn overdue">Mark as Active</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

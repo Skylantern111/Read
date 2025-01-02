@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Accounts - Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Updated Link -->
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Admin Dashboard</h1>
+        <button>Logout</button>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Members</a></li>
+            <li><a href="#">Rentals</a></li>
+            <li><a href="#">Reports</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="card">
+            <h2>Member Accounts</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>john.doe@example.com</td>
+                        <td>********</td>
+                        <td>Active</td>
+                        <td>
+                            <button class="action-btn delete">Delete</button>
+                            <button class="action-btn block">Block</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>jane.smith@example.com</td>
+                        <td>********</td>
+                        <td>Blocked</td>
+                        <td>
+                            <button class="action-btn delete">Delete</button>
+                            <button class="action-btn block">Unblock</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
